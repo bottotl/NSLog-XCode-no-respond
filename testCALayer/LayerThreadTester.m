@@ -22,7 +22,7 @@
         _view  = [UIView new];
         _unsafeBlock = dispatch_block_create(0, ^{
             while (self.isRunning) {
-//                NSLog(@"1");
+                NSLog(@"1");
                 CGRect layerFrame = self.layer.bounds;
 //                NSLog(@"%@", [NSValue valueWithCGRect:layerFrame]);
 //                CGRect viewFrame  = self.view.frame;
