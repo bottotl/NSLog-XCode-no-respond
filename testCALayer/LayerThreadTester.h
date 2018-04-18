@@ -11,5 +11,8 @@
 
 @interface LayerThreadTester : NSObject
 @property (nonatomic, strong) CALayer *layer;
+@property (nonatomic, strong) UIView  *view;
+@property (nonatomic, assign) BOOL isRunning;
 - (void)startTest;
+- (void)stopTest;
 @end
